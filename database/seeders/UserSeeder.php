@@ -17,7 +17,7 @@ class UserSeeder extends Seeder
         // Akun Admin
         User::create([
             'name' => 'Admin',
-            'email' => 'novachronoj2@gmail.com',
+            'email' => 'admin@example.com',
             'password' => Hash::make('cob@1'),
             'role' => UserRole::ADMIN,
             'email_verified_at' => now(),
